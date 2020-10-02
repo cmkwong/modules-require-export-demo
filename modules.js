@@ -12,3 +12,8 @@ console.log(calc1.add(2,5));
 // destructure way : https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/learn/lecture/15064760?start=681#notes
 const {add, multiply, divide} = require("./test-module-2");
 console.log(multiply(2,5));
+
+// caching
+require("./test-module-3")();
+require("./test-module-3")();
+require("./test-module-3")();
